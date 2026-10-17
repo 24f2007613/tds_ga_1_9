@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="A portfolio of data analysis, automation, and configuration work.">
+  <title>TechMart & Data Projects | Sarfaraj</title>
+  <style>
+    :root { color-scheme: light; --ink:#182230; --muted:#596579; --line:#dce3ec; --panel:#f5f8fc; --accent:#2457c5; }
+    * { box-sizing:border-box; }
+    body { margin:0; font:16px/1.6 system-ui,-apple-system,Segoe UI,Roboto,sans-serif; color:var(--ink); background:#fff; }
+    header { padding:64px 22px 52px; background:linear-gradient(135deg,#eef4ff,#f8fbff); border-bottom:1px solid var(--line); }
+    .wrap { width:min(960px,100% - 40px); margin:auto; }
+    .eyebrow { color:var(--accent); text-transform:uppercase; letter-spacing:.12em; font-size:.78rem; font-weight:750; }
+    h1 { font-size:clamp(2.2rem,6vw,4rem); line-height:1.08; margin:.45rem 0 1rem; letter-spacing:-.04em; }
+    h2 { letter-spacing:-.025em; margin:0 0 12px; }
+    .intro { max-width:680px; color:var(--muted); font-size:1.1rem; }
+    main { padding:38px 0 56px; }
+    .grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(250px,1fr)); gap:18px; margin:20px 0 38px; }
+    article { border:1px solid var(--line); border-radius:16px; padding:22px; background:#fff; }
+    article p { color:var(--muted); margin-bottom:0; }
+    .tag { display:inline-block; border-radius:999px; padding:4px 10px; margin:0 5px 8px 0; background:var(--panel); color:#34445e; font-size:.8rem; }
+    .contact { border-top:1px solid var(--line); padding-top:26px; }
+    a { color:var(--accent); }
+    footer { color:var(--muted); background:var(--panel); padding:20px; font-size:.9rem; }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="wrap">
+      <div class="eyebrow">Project portfolio</div>
+      <h1>Data, automation<br>and practical engineering.</h1>
+      <p class="intro">A compact showcase of work involving transaction analysis, file organization, and configuration services—focused on reproducible results and clear verification.</p>
+    </div>
+  </header>
+  <main class="wrap">
+    <h2>Selected work</h2>
+    <div class="grid">
+      <article>
+        <span class="tag">Data analysis</span><span class="tag">CSV</span>
+        <h2>Regional sales performance</h2>
+        <p>Calculated revenue for Kolkata transactions during May 2025 using the sum of quantity multiplied by price, then rounded the result to the nearest integer.</p>
+      </article>
+      <article>
+        <span class="tag">Shell scripting</span><span class="tag">SHA-256</span>
+        <h2>Archive reorganization</h2>
+        <p>Flattened a nested text-file archive into category-based folders, preserved source paths in filenames, and verified the resulting file listing with a sorted SHA-256 hash.</p>
+      </article>
+      <article>
+        <span class="tag">Python</span><span class="tag">FastAPI</span>
+        <h2>Effective configuration API</h2>
+        <p>Built a configuration endpoint with layered defaults, YAML, dotenv, OS environment variables, query overrides, type coercion, and API-key masking.</p>
+      </article>
+    </div>
+    <section class="contact">
+      <h2>Contact</h2>
+      <p>Email: <!--email_off-->24f2007613@ds.study.iitm.ac.in<!--/email_off--></p>
+    </section>
+  </main>
+  <footer><div class="wrap">Built as a lightweight static page for GitHub Pages.</div></footer>
+</body>
+</html>
